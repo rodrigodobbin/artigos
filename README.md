@@ -1,6 +1,6 @@
-# Artigos publicados em Congressos e Revistas
+# Artigos publicados em Revistas, Congressos e Simpósios
 
-## Congressos
+## Simpósios
 
 ### SBIE
 

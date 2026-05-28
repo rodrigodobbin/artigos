@@ -1,6 +1,6 @@
 # Revisão Sistemática de Literatura sobre métodos, técnicas e critérios de avaliação de aprendizagem em jogos sérios sociointeracionistas
 
-## Artigo publicado no SBIE 2022
+## Artigo publicado no <a href="https://sol.sbc.org.br/index.php/sbie/article/view/22437" target="_blank">SBIE 2022</a>
 
 ### Abstract
 
