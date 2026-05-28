@@ -1,0 +1,400 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Homebrew) (preloaded format=pdflatex 2026.3.4)  28 MAY 2026 15:52
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/dobbin/projects/personal/artigos/revisao_sistematica_de_literatura_sobre_metodos_tecnicas_e_criterios_de_avaliacao_de_aprendizagem_em_jogos_serios_sociointeracionistas/template-latex/sbc-template.tex
+(/Users/dobbin/projects/personal/artigos/revisao_sistematica_de_literatura_sobre_metodos_tecnicas_e_criterios_de_avaliacao_de_aprendizagem_em_jogos_serios_sociointeracionistas/template-latex/sbc-template.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (./sbc-template.sty
+Package: sbc-template 2001/06/09
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+\c@instn=\count288
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen165
+\ttl@minus=\dimen166
+\ttl@toksa=\toks19
+\titlewidth=\dimen167
+\titlewidthlast=\dimen168
+\titlewidthfirst=\dimen169
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count290
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+\U@D=\dimen172
+\l@unhyphenated=\language91
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count291
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4330.
+
+Package babel Info: Importing font and identification data for brazil
+(babel)             from babel-pt-BR.ini. Reported on input line 4330.
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language73). Reported on input line 100.
+Package babel Info: Making " an active character on input line 132.
+)) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen173
+\ar@mcellbox=\box54
+\extrarowheight=\dimen174
+\NC@list=\toks22
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box55
+)
+\rotheadsize=\dimen175
+\c@nlinenum=\count292
+\TeXr@lab=\toks23
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count293
+\multirow@dima=\skip56
+\bigstrutjot=\dimen176
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 20.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
+) (./sbc-template.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 6.
+)
+\openout1 = `sbc-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 674.33032pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+(/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen177
+\scratchbox=\box56
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen178
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks25
+) (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 22.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 22.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+ [1
+
+{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 72.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [3]
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 119.
+ (/opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+) [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+[]\OT1/ptm/b/n/12 Mundo Vir-tual \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 230--231
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 241--242
+[]\OT1/ptm/b/n/12 Crian[]as de 6 at[]e 15 anos \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+[]\OT1/ptm/b/n/12 Educa[][]ao fun-da-men-tal \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+[]\OT1/ptm/b/n/12 Conceitos de F[]^^Psica \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]\OT1/ptm/b/n/12 Grava[][]ao da intera[][]ao do usu[]ario com o jogo \OT1/ptm/m/n/12 [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[]\OT1/ptm/b/n/12 Par[]ametros impl[]^^Pcitos \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
+[]\OT1/ptm/b/n/12 Minera[][]ao de da-dos edu-ca-ci-o-nais \OT1/ptm/m/n/12 [[]],
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 284--285
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+[]\OT1/ptm/b/n/12 Aprendizado de m[]aquina \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 296--297
+[]\OT1/ptm/b/n/12 Pr[]e e p[]os teste \OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+[]\OT1/ptm/b/n/12 Avan[]o no jogo \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+[]\OT1/ptm/b/it/12 Logs \OT1/ptm/b/n/12 dos jo-gos \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+[]\OT1/ptm/b/it/12 Cognitive Re-li-a-bi-lity and Er-ror Analy-sis Method (CREAM)
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 313--314
+[]\OT1/ptm/b/n/12 Valida[][]ao das a[][]oes do usu[]ario vs. o dom[]^^Pnio de co-nhe-ci-mento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[]\OT1/ptm/b/n/12 Acertar o ques-tion[]ario teste \OT1/ptm/m/n/12 [[]], [[]],
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+[]\OT1/ptm/b/it/12 Evidence Cen-te-red As-ses-s-ment De-sign (ECD) \OT1/ptm/m/n/12 [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+\OT1/ptm/m/n/12 [[]], [[]], [[]],
+ []
+
+[9] (./sbc-template.bbl [10] [11]) [12] (./sbc-template.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5692 strings out of 467525
+ 97922 string characters out of 5408440
+ 529244 words of memory out of 5000000
+ 34542 multiletter control sequences out of 15000+600000
+ 647013 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,19n,79p,1115b,422s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/homebrew/Cellar/texlive/20260301/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sbc-template.pdf (12 pages, 138904 bytes).
+PDF statistics:
+ 84 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

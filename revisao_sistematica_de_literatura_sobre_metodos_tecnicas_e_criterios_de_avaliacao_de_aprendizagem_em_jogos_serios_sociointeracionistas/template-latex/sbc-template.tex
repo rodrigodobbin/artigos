@@ -1,0 +1,344 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{makecell}
+\usepackage{multirow}
+
+\sloppy
+
+\title{Revisão Sistemática de Literatura sobre métodos, técnicas e critérios de avaliação de aprendizagem em jogos sérios sociointeracionistas}
+
+\author{Rodrigo Dobbin Fellows\inst{1}, Juliana Cristina Braga\inst{1}, Silvia Cristina Dotta\inst{1}}
+
+\address{Universidade Federal do ABC (UFABC)\\
+  Caixa Postal 09210-580 -- Santo André -- SP -- Brasil
+\email{rodrigodobbinf@gmail.com, \{juliana.braga,silvia.dotta\}@ufabc.edu.br}}
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract}
+Assessing the student is important to understand how the teaching-learning process occurs. In educational games, some methods are used to help in this evaluation, however, just a few consider humanistic pedagogical approaches. In socio-interactionist educational approach, creativity, interaction and the student's socio-historical-cultural context are valued, therefore, the evaluation of socio-interactionist games distances itself from behaviorist practices. This systematic review was carried out in order to understand the methods, techniques, criteria, frameworks and/or algorithms that can be used for the evaluation of socio-interactionist educational games.
+\end{abstract}
+     
+\begin{resumo}
+Avaliar o estudante é importante para entender como o processo de ensino e aprendizagem ocorre. Em jogos sérios, alguns métodos são utilizados para ajudar nessa avaliação, no entanto, poucos consideram abordagens pedagógicas humanistas. Na abordagem educacional sociointeracionista, são valorizados a criatividade, a interação e o contexto sócio-histórico-cultural do estudante, sendo assim, a avaliação de jogos sociointeracionistas distancia-se de práticas behavioristas. Essa revisão sistemática foi realizada no intuito de entender quais são os métodos, técnicas, critérios, frameworks e/ou algoritmos que podem ser utilizados para a avaliação de jogos sérios sociointeracionistas.
+\end{resumo}
+
+\section{Introdução}\label{sec:introducao}
+
+Em um modelo de educação interacionista e humanista, que valoriza a criatividade, o cidadão deve ser estimulado a aprender de forma significativa, colaborar, trabalhar em equipe, compartilhar, assumir iniciativas, agir com criatividade e inovação, além de desenvolver senso crítico para resolver problemas.
+
+Os jogos, quando utilizados para fins educacionais, podem proporcionar um modelo de educação interacionista, gerando possibilidades para uma aprendizagem mais humanística. 
+
+No entanto, medir os resultados da aprendizagem em jogos sérios é algo considerado complexo. Existem estudos que apontam melhorias no desempenho acadêmico dos estudantes e outros que não apresentam evidências de melhoria no desempenho escolar.
+
+Segundo \cite{del2010easing}, um dos desafios mais relevantes enfrentados por professores e instrutores é avaliar os resultados de aprendizagem das sessões de jogo. 
+
+Métodos automatizados para avaliar a aprendizagem em jogos podem diminuir esse desafio e são utilizados para auxiliar o professor a mensurar o desempenho do aluno na interação com jogos. No entanto, poucos deles consideram abordagens pedagógicas humanistas onde são valorizados a criatividade, a interação e o contexto sócio-histórico-cultural do estudante. 
+
+A literatura apresenta trabalhos que consideram avaliação automatizada de jogos, mas as soluções aproximam-se mais das práticas behavioristas, como por exemplo, o tradicional questionário de retorno automático inserido no jogo para automatizar a avaliação da aprendizagem do estudante. 
+Há em todo esse cenário uma contradição, pois se por um lado o jogo pode ser usado para aprendizagem humanista, por outro, as técnicas computacionais implementadas em jogos para a avaliar aprendizagem distanciam-se dessa abordagem. 
+
+Diantes desse contexto, identificou-se como um problema a ser investigado a dificuldade de se automatizar avaliação de aprendizagem em jogos sérios sociointeracionistas, de modo que os componentes de avaliação não descaracterizem os principais elementos dessa abordagem. No intuito de apontar solução para esse problema, esse estudo propõe uma revisão sistemática que visa compreender quais são os métodos, frameworks e/ou algoritmos que podem ser utilizados para a avaliação de jogos sérios sociointeracionistas. Ao final da revisão, as seguintes questões de pesquisa serão respondidas: Qual ou quais técnicas de avaliação automática podem ser utilizadas para acompanhar o aprendizado do estudante em jogos sérios baseados na abordagem educacional sociointeracionista?
+
+As contribuições desse estudo são: (i) sintetizar as técnicas e métodos de avaliação mais utilizados para medir a aprendizado em jogos sérios, (ii) resumir quais são os critérios de avaliação mais utilizados em jogos sérios, e (iii) mostrar como podem ser utilizados em um ambiente sócio-interacionista.
+
+
+\section{Trabalhos relacionados}\label{sec:trabalhos_relacionados}
+
+Com intuito de verificar se já existia alguma revisão sistemática para responder as questões de pesquisa desse trabalho, uma primeira revisão sistemática foi realizada.  
+levantar o estado da arte para investigar, avaliar e interpretar o que está acontecendo em um assunto científico. Essa Revisão teve como ponto de partida a tentativa em descobrir como analisar o processo de aprendizagem de jogos sérios cuja proposta é baseada no conceito da teoria de aprendizagem sociointeracionista de Lev Vigotski. E o artigo Calderón, A. and Ruiz, M. (2015). A systematic literature review on serious games evaluation: An application to software project management. Computers \& Education, 87:396–422. O qual aborda a avaliação em jogos sérios.
+
+Para tal foi feita então uma pesquisa por outras revisões sistemáticas de literatura sobre o mesmo tema nas bases: \textit{DBLP}, \textit{ACM Digital}, \textit{IEEE Xplore} e \textit{Google Scholar}. Utilizando a \textit{String} de busca \textit{(Learning Assessment \textbf{OR} Teaching Learning Process \textbf{OR} Teaching-learning process) \textbf{AND} (Serious Game \textbf{OR} Educational Games) \textbf{AND} (Systematic review \textbf{OR} Research review \textbf{OR} Systematic overview \textbf{OR} Systematic literature \textbf{OR} SLR)}.
+
+Não houve nenhuma similaridade significativa com os resultados apresentados nessa busca, para que invalidasse a necessidade dessa revisão. Contudo um estudo dessa busca foi levado em consideração, Peña-Ayala, A. (2014). Educational data mining: A survey and a data mining-based analysis of recent works. Expert systems with applications, 41(4):1432–1462. O qual fez uma pesquisa e revisão sobre os trabalhos mais recentes com Mineração de dados educacionais, e apesar desse trabalho em específico não ter abordado o tema de aprendizagem ou processo de aprendizado em jogos sérios, ele citou outros quatro trabalhos que foram adicionados para leitura completa no processo dessa revisão.
+
+\section{Metodologia}\label{sec:metodos_utilizado}
+
+Esse estudo seguiu as diretrizes propostas por \textit{Kitchenham \& Charters} \cite{keele2007guidelines}.
+
+A revisão sistemática teve  como principal objetivo entender quais são os métodos, técnicas e critérios mais utilizados para avaliação do aprendizado e do processo de de aprendizado em um jogo sério sociointeracionista.
+
+\subsection{Questões de pesquisa}
+
+Oito questões de pesquisa específicas foram definidas baseada no objetivo especificado na introdução desse trabalho:
+
+\begin{itemize}
+    \item \textbf{QP1:} Que tipo de jogo foi utilizado pelo estudo?
+    \item \textbf{QP2:} Qual o público alvo do jogo?
+    \item \textbf{QP3:} Qual a área de conhecimento do jogo (para que tipo de área de conhecimento ele foi feito)?
+    \item \textbf{QP4:} Qual ou quais os objetivos pedagógicos do jogo?
+    \item \textbf{QP5:} Qual ou quais técnicas de avaliação foram utilizadas nos estudos analisados?
+    \item \textbf{QP6:} Qual ou quais métodos de avaliação foram utilizadas no jogo?
+    \item \textbf{QP7:} Qual ou quais os critérios de avaliação foram utilizados?
+    \item \textbf{QP8:} Qual a teoria de aprendizagem utilizada pelo jogo?
+\end{itemize}
+
+\subsection{Estratégia de busca}
+
+A estratégia de busca foi baseada na busca por artigos científicos em reconhecidas base de dados digitais, sendo elas:
+
+\begin{itemize}
+    \item \textit{http://dblp.uni-trier.de}
+    \item \textit{http://dl.acm.org/dl.cfm}
+    \item \textit{https://ieeexplore.ieee.org}
+    \item \textit{https://scholar.google.com}
+\end{itemize}
+
+Para isso uma \textit{String} de busca foi desenvolvida baseado nos cinco passos descritos por \textit{Brereton, Kitchenham, Budgen, Turner, \& Khalil} \cite{brereton2007lessons}, os quais são:
+
+\begin{itemize}
+    \item Obter os principais termos das perguntas, identificando os conceitos principais;
+    \item Identificar grafias alternativas e sinônimos para os termos principais;
+    \item Verificar as palavras-chave em todos os artigos relevantes que já é possuído;
+    \item Usar o ``booleano" \textit{OR} para adicionar alternativas de grafia e sinônimos;
+    \item Usar o ``booleano" \textit{AND} para vincular os termos principais.
+\end{itemize}
+
+Com isso foi definida a \textit{String} de busca \textit{(Sociointeractionism \textbf{OR} Lev Vygotsky \textbf{OR} Vygotsky) \textbf{AND} (Serious Game \textbf{OR} Educational Games) \textbf{AND} (Stealth Assessment \textbf{OR} Game-Based Learning Assessments \textbf{OR} Learning Assessment \textbf{OR} Learning Analysis \textbf{OR} Teaching Learning Process \textbf{OR} Teaching-learning process \textbf{OR} Teaching-learning)}, a qual será chamada \textit{String} de busca completa.
+
+Após realizar as buscas nas bases com essa \textit{String}, apenas 25 resultados foram encontrados, isso ocorreu por causa do primeiro bloco de termos, que trata sobre sociointeracionismo, o que nos levanta uma hipótese dele ser pouco abordado quando relacionado a Sistema da Informação. Para que uma nova busca fosse realizada, a \textit{String} de busca foi adaptada \textit{(Serious Game \textbf{OR} Educational Games) \textbf{AND} (Stealth Assessment \textbf{OR} Game-Based Learning Assessments \textbf{OR} Learning Assessment \textbf{OR} Learning Analysis \textbf{OR} Teaching Learning Process \textbf{OR} Teaching-learning process \textbf{OR} Teaching-learning)}, a qual será chamada de \textit{String} de busca adaptada. Portanto essa revisão foi feita com duas \textit{Strings} diferentes, a \textit{String} de busca completa e a \textit{String} de busca adaptada.
+
+Um fato aconteceu após analisar alguns estudos encontrados a partir da \textit{String} de busca adaptada, sendo ele o descobrimento de um novo termo de busca, o \textit{Dynamic Assessment} ou \textit{Dynamic Testing}, esses termos foram incluídos e a busca foi refeita, mas não trouxe nenhum estudo a mais a ser considerado depois da leitura do Título e Resumo dos mesmos, portanto esses termos não foram adicionados como parte da busca das nossas \textit{Strings} finais.
+
+Para auxiliar no processo de armazenamento das informações adquiridas durante a leitura dos artigos foi utilizado o \textit{Google Sheets}\textsuperscript{TM}, e para organização dos artigos exportados e remoção dos duplicados foi utilizado o \textit{Zotero} \cite{ahmed2011zotero}.
+
+\subsection{Seleção dos estudos e critérios de exclusão}
+
+Inicialmente para seleção dos estudos foi estabelecido um critério que aceitava apenas artigos feitos a partir de 2015, mas como a primeira pesquisa retornou poucos resultados, esse limite foi removido, e não foi definido data inicial para escrita dos artigos.
+
+O processo de seleção portanto se deu em três etapas. A primeira etapa foi a validação das palavras-chave selecionadas para as \textbf{Strings} de busca, através da busca pelas palavras pesquisadas em uma seleção aleatória de alguns dos estudos encontrados pelas buscas. A segunda foi a seleção dos artigos que respeitaram os critérios de exclusão representados pela Tabela \ref{tab:criteiros_inclusao_exclusao}, a partir da leitura do seus Títulos e Resumos. Já a terceira se deu a partir dos artigos aprovados na primeira etapa, aqui foi feita a leitura do texto completo, e caso ele cumprisse os critérios da Tabela \ref{tab:criteiros_inclusao_exclusao} seriam excluídos do estudo.
+
+\begin{table}[ht]
+    \centering
+    \caption{Critérios de exclusão}
+    \label{tab:criteiros_inclusao_exclusao}
+    \begin{tabular}{|c|c|} 
+      \hline
+      \makecell[l]{Critérios de Exclusão} & \makecell[l]{- Documentos Repetidos. \\ - Publicações que não são artigo de períodicos ou Publicações \\ em anais de conferência. \\ - Publicações que não demonstraram como funciona ou como \\ deve ser implementado seu método ou técnica de avaliação. \\ - Publicações que não apresentem métodos ou técnicas de \\ avaliação de jogos sérios.} \\
+      \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Avaliação de qualidade}
+
+Cada artigo foi confrontado com um questionário contendo três perguntas, elas serviram para avaliar a qualidade do artigos perante o propósito desse estudo. Sendo elas:
+
+\begin{itemize}
+    \item \textbf{AQ1:} O artigo contem informações sobre a técnica/método de avaliação que utilizou?
+    \item \textbf{AQ2:} O artigo contém um experimento utilizando a técnica/método de avaliação apresentada?
+    \item \textbf{AQ3:} O artigo menciona quais os critérios utilizados para a avaliação da aprendizagem?
+\end{itemize}
+
+Cada questão poderia ser respondia com ``Sim" ou ``Não", sendo obrigatório para o estudo passar no critério de qualidade ter as três respostas ``Sim". É preciso portanto entender qual ou quais critérios, técnicas e métodos foram utilizadas e qual sua assertividade/acurácia, e para tal é necessário um experimento. Por isso as três avaliações de qualidade precisam ser respondidas de maneira positiva.
+
+\section{Resultados}\label{sec:resultados}
+
+% O processo dessa revisão durou 12 meses, todo trabalho foi feito por três autores, o primeiro autor dessa revisão realizou o processo da RSL e os demais revisaram o trabalho feito pelo primeiro. O processo está descrito na Tabela \ref{tab:processo_rsl}.
+
+% \begin{table}[ht]
+%     \centering
+%     \caption{Processo de revisão sistemática de literatura}
+%     \label{tab:processo_rsl}
+%     \begin{tabular}{|c|c|c|} 
+%         \hline
+%         Data & Atividades & Resultados \\
+%       \hline
+%         \multirow{2}{*}{Janeiro 2021} &  Desenvolvimento do protocolo da RSL & Esboço do protocolo \\ \cline{2-3}
+%         & Revisão do protocolo da RSL & \makecell{Primeira versão do \\ protocolo} \\
+%       \hline
+%       \multirow{2}{*}{Fevereiro 2021} & Processo de busca & Lista de publicações \\ \cline{2-3}
+%       & Revisão do protocolo da RSL & \makecell{Segunda versão do \\ protocolo} \\
+%       \hline
+%       \multirow{2}{*}{Março 2021} & Processo de busca com \textit{String} adaptada & \makecell{Lista de publicações \\ completa} \\ \cline{2-3}
+%       & Remoção dos duplicados & \makecell{Lista sem estudos \\ duplicados} \\
+%       \hline
+%       Abril 2021 & Primeira revisão & \makecell{Lista de possíveis \\ estudos selecionados} \\ 
+%       \hline
+%       Maio 2021 & Segunda Revisão & \makecell{Lista com os estudos \\ primários} \\ 
+%       \hline
+%       \multirow{2}{*}{Junho 2021} & Revisão do protocolo da RSL & \makecell{Terceira versão do \\ protocolo} \\ \cline{2-3}
+%       & Extração dos dados & \makecell{Montagem das tabelas \\ com os dados} \\
+%       \hline
+%       Julho 2021 & Avaliação de qualidade & \makecell{Avaliação da qualidade \\ dos estudos primários} \\
+%       \hline
+%       Agosto 2021 & \multirow{2}{*}{Síntese dos dados} & \multirow{2}{*}{\makecell{Respostas para as \\ questões de pesquisa}} \\ \cline{1-1}
+%       Setembro 2021 & & \\
+%       \hline
+%       Outubro 2021 & \multirow{3}{*}{Reportando os resultados} & \makecell{Primeira versão do \\ artigo} \\ \cline{1-1} \cline{3-3}
+%       Novembro 2021 & & \makecell{Segunda versão do \\ artigo} \\ \cline{1-1} \cline{3-3}
+%       Dezembro 2021 & & Versão Final do artigo \\
+%       \hline
+%     \end{tabular}
+% \end{table}
+
+% \subsection{Resultado da busca e seleção}
+
+Como já mencionado essa revisão possui uma peculiaridade em ter sido feita com duas strings diferentes, pois a primeira busca teve apenas o retorno de 25 artigos. Por conta disso foi necessário um novo processo de busca utilizando a \textit{String} de busca adaptada, a qual retornou 481 resultados.
+
+A análise dos dois resultados foi feita de acordo com os seguintes passos: primeiro é obtido os artigos das bases, os arquivos duplicados são removidos, posteriormente é feita a primeira etapa da revisão que é constituída da leitura do Resumo e do Título, caso eles não contenham nenhuma informação relevante para alguma das questões de pesquisa, eles são removidos, em seguida os artigos selecionados são lidos por completo. Esses artigos que foram lidos por completo são analisados de acordo com as questões de qualidade AQ1, AQ2 e AQ3, para que assim o estudo possa entrar como selecionado para essa revisão. Esse processo está demonstrado na Tabela \ref{tab:resultado_busca}.
+
+\begin{table}[ht]
+    \centering
+    \caption{Quantidade de artigos selecionados após cada etapa do processo de busca e seleção}
+    \label{tab:resultado_busca}
+    \begin{tabular}{|c|c|c|} 
+      \hline
+      Etapa & \textit{String} Completa & \textit{String} Adaptada \\
+      \hline
+      Busca & 25 & 481 \\
+      \hline
+      Eliminação dos livros e artigos duplicados & 24 & 432 \\
+      \hline
+      Primeira revisão (leitura do Título e Resumo) & 1 & 59 \\
+      \hline
+      Segunda revisão (leitura do artigo completo) & 1 & 29 \\
+      \hline
+      Avaliação de qualidade & 1 & 18 \\
+      \hline
+    \end{tabular}
+\end{table}
+
+% \subsection{Resultado da avaliação de qualidade}
+
+A seleção portanto resultou em 29 estudos, os quais foram confrontados com as três questões de análise de qualidade pré definidas (AQ1, AQ2 e AQ3). Para a \textbf{AQ1} 24 estudos obtiveram \textbf{sim} e 5 \textbf{não}, já para a \textbf{AQ2} 26 estudos obtiveram \textbf{sim} e 3 \textbf{não}, e para a \textbf{AQ3} 22 estudos obtiveram \textbf{sim} e 7 \textbf{não}. Com isso mais 11 estudos foram excluídos dessa revisão.
+
+\section{Discussão}\label{sec:discussao}
+
+Nessa revisão foram encontrados 29 estudos primários, dos quais apenas 18 foram considerados no processo para responder as questões de pesquisa, pois os 11 restantes não passaram no critério de avaliação. De acordo com os resultados obtidos na busca e nos estudos analisados, foi observado que está acontecendo um aumento na quantidade de pesquisas relacionadas ao que chamam de \textit{Stealth Assessment}, uma avaliação que é feita de forma não disruptiva dentro do contexto do próprio jogo. A qual segundo \cite{mislevy2006implications} é normalmente desenvolvida usando a estrutura de design centrado em evidências (ECD) que visa estabelecer um argumento logicamente coerente entre o domínio que está sendo aplicado (modelo de competência), design de tarefa de avaliação (modelo de tarefa) e interpretação (modelo de evidência).
+
+Com a evolução na capacidade dos computadores, e consequente aprimoramento dos algoritmos de aprendizado de máquina, também foi observado um uso mais crescente dessa técnica para esse tipo de avaliação, ou seja, há uma tentativa de automatizar esse processo de avaliação, para que não precise ser feito de forma manual.
+
+O domínio de aplicação mais explorado por jogos sérios que continham alguma forma de avaliação do aprendizado foi o da Educação, mais especificamente o da Educação fundamental.
+
+Foi percebido também que a maioria dos jogos possuem os elementos de avaliação da aprendizagem com cunho behaviorista, ou seja na hora de medir o aprendizado existem respostas certas e erradas, eles não conseguem medir o processo de aprendizagem.
+
+Abaixo iremos discutir as questões de pesquisa propostas por esta revisão, e fazer algumas considerações sobre cada uma delas.
+
+\subsection{QP1: Que tipo de jogo foi utilizado pelo estudo?}
+
+Todos os jogos foram feitos ou para serem executados em computadores ou dispositivos móveis. E os jogos mais utilizados pelos estudos analisados, são do tipo ``Mundo Virtual", os quais fazem o jogador imergir em um novo mundo de interação, um mundo paralelo e não real. Os tipos de jogos analisados pelos estudos são:
+
+\begin{itemize}
+    \item \textbf{Jogos para Computador} \cite{del2010easing};
+    \item \textbf{Quebra-cabeça} \cite{rowe2017assessing};
+    \item \textbf{Mundo Virtual} \cite{moreno2007game}, \cite{thomas2012evaluate}, \cite{harpstead2013search}, \cite{baron2014approach}, \cite{de20163d}, \cite{mota2017environment}, \cite{falakmasir2016data}, \cite{georgiadis2019bolstering}, \cite{georgiadis2019reinforcing}, \cite{min2019deepstealth};
+    \item \textbf{Jogos Mobile} \cite{kam2007localized}, \cite{kam2009improving};
+    \item \textbf{\textit{MMORPGs}} \cite{conrad2014framework}.
+\end{itemize}
+
+\subsection{QP2: Qual o público alvo do jogo?}
+
+A maior parte dos jogos foram feitos voltados para área de educação, e tendo como seu principal público alvo crianças de 6 até 15 anos. O público alvo dos jogos analisados são:
+
+\begin{itemize}
+    \item \textbf{Crianças até 6 anos} \cite{baron2014approach};
+    \item \textbf{Crianças de 6 até 15 anos} \cite{rowe2017assessing}, \cite{del2010easing}, \cite{asbell2013assessment}, \cite{harpstead2013search}, \cite{conrad2014framework}, \cite{mota2017environment}, \cite{falakmasir2016data}, \cite{min2019deepstealth}, \cite{kam2007localized}, \cite{kam2009improving};
+    \item \textbf{Pessoas com interesse por gastronomia} \cite{moreno2007game};
+    \item \textbf{Bancários} \cite{thomas2012evaluate};
+    \item \textbf{Ensino superior} \cite{de20163d}, \cite{georgiadis2019bolstering}.
+\end{itemize}
+
+\subsection{QP3: Qual a área de conhecimento do jogo (para que tipo de área de conhecimento ele foi feito)?}
+
+Corroborando o fato explanado na resposta da QP2, a área de conhecimento mais abordada pelos estudos são as áreas vistas no Ensino fundamental, o que faz sentido, uma vez que essa área é geralmente frequentada por crianças de 6 até 15 anos. A análise completa com todas as áreas de conhecimento pode ser vista abaixo:
+
+\begin{itemize}
+    \item \textbf{Educação fundamental} \cite{del2010easing}, \cite{rowe2017assessing}, \cite{asbell2013assessment}, \cite{harpstead2013search}, \cite{mota2017environment}, \cite{falakmasir2016data}, \cite{kam2007localized}, \cite{kam2009improving}, \cite{conrad2014framework};
+    \item \textbf{Gastronomia} \cite{moreno2007game};
+    \item \textbf{Bancária} \cite{thomas2012evaluate};
+    \item \textbf{Saúde} \cite{de20163d}, \cite{georgiadis2019bolstering};
+    \item \textbf{Psicologia} \cite{georgiadis2019reinforcing}.
+\end{itemize}
+
+Uma análise das áreas do Ensino fundamental mostra que há uma diversidade entre elas, sendo Física 33.3\%, Matemáticas 22.2\%, Língua Inglesa 22.2\%, STEM 11.1\% e História 11.1\% das áreas analisadas.
+
+\subsection{QP4: Qual ou quais os objetivos pedagógicos do jogo?}
+
+Sobre os objetivos pedagógicos, a área de ciências exatas superou as demais áreas. A lista com todos os objetivos pedagógicos dos estudos analisados na revisão é:
+
+\begin{itemize}
+    \item \textbf{Ensinar História} \cite{del2010easing};
+    \item \textbf{Conceitos de Física} \cite{rowe2017assessing}, \cite{asbell2013assessment}, \cite{harpstead2013search};
+    \item \textbf{Conceitos de matemática} \cite{mota2017environment}, \cite{falakmasir2016data};
+    \item \textbf{Inglês como segunda lingua (ESL} \cite{kam2007localized}, \cite{kam2009improving};
+    \item \textbf{STEM} \cite{conrad2014framework};
+    \item \textbf{Ensino da culinária} \cite{moreno2007game};
+    \item \textbf{Conhecimentos bancários} \cite{thomas2012evaluate};
+    \item \textbf{Melhoria no ensino da saúde} \cite{de20163d}, \cite{georgiadis2019bolstering};
+    \item \textbf{Definição de personalidade do jogador} \cite{georgiadis2019reinforcing}.
+\end{itemize}
+
+\subsection{QP5: Qual ou quais técnicas de avaliação foram utilizadas nos estudos analisados?}
+
+Há um crescente aumento no uso de técnicas como aprendizado de máquina e mineração de dados educacionais e as mais usadas são Redes Baysianas, Redes Neurais e \textit{Hidden Markov Model (HMM)}. Isso foi observado principalmente nos estudos mais recentes (dos últimos 5 anos). Todas as técnicas encontradas nos estudos são:
+
+\begin{itemize}
+    \item \textbf{Gravação da interação do usuário com o jogo} \cite{rowe2017assessing}, \cite{asbell2013assessment}, \cite{conrad2014framework};
+    \item \textbf{Parâmetros implícitos} \cite{rowe2017assessing}, \cite{del2010easing}, \cite{de20163d}, \cite{falakmasir2016data};
+    \item \textbf{Mineração de dados educacionais} \cite{rowe2017assessing}, \cite{asbell2013assessment}, \cite{georgiadis2018accommodating}, \cite{georgiadis2019learning}, \cite{georgiadis2019bolstering}, \cite{georgiadis2019reinforcing}, \cite{min2019deepstealth};
+    \item \textbf{\textit{Petri nets (PN)}} \cite{thomas2012evaluate};
+    \item \textbf{Modelo de equação estrutural} \cite{baron2014approach};
+    \item \textbf{Aprendizado de máquina} \cite{harpstead2013search}, \cite{conrad2014framework}, \cite{falakmasir2016data}, \cite{georgiadis2018accommodating}, \cite{georgiadis2019learning}, \cite{georgiadis2019bolstering}, \cite{georgiadis2019reinforcing}, \cite{min2019deepstealth}.
+\end{itemize}
+
+\subsection{QP6: Qual ou quais métodos de avaliação foram utilizadas no jogo?}
+
+As técnicas que foram previamente demonstradas, são utilizadas de acordo com métodos pré-definidos. Como a maior parte dos trabalhos tem uma abordagem mais behaviorista, os métodos mais utilizados consequentemente são a aplicação de testes tradicionais, como se vê em instituições de ensino, podendo ser aplicado antes do experimento, depois, ou tanto antes quanto depois. O métodos encontrados nos estudos estão listados abaixo:
+
+\begin{itemize}
+    \item \textbf{Pré teste} \cite{moreno2007game}, \cite{del2010easing};
+    \item \textbf{Pré e pós teste} \cite{rowe2017assessing}, \cite{kam2007localized}, \cite{kam2009improving}, \cite{harpstead2013search}, \cite{baron2014approach};
+    \item \textbf{Testes \textit{in-game}} \cite{del2010easing}, \cite{de20163d};
+    \item \textbf{Avanço no jogo} \cite{del2010easing}, \cite{harpstead2013search}, \cite{nyamsuren2017automated}, \cite{mota2017environment};
+    \item \textbf{\textit{Logs} dos jogos} \cite{rowe2017assessing}, \cite{falakmasir2016data}, \cite{georgiadis2019bolstering}, \cite{georgiadis2019reinforcing}, \cite{min2019deepstealth};
+    \item \textbf{Avaliação dos aplicadores do experimento (professores)} \cite{rowe2017assessing};
+    \item \textbf{Narrativa do jogo} \cite{moreno2007game};
+    \item \textbf{\textit{Cognitive Reliability and Error Analysis Method (CREAM)}} \cite{thomas2012evaluate};
+    \item \textbf{Comparação do resultados de pré testes vs. números apresentados pela técnica aplicada} \cite{thomas2012evaluate}, \cite{conrad2014framework};
+    \item \textbf{Análise do \textit{gameplay}} \cite{asbell2013assessment}.
+\end{itemize}
+
+\subsection{QP:7 Qual ou quais os critérios de avaliação foram utilizados?}
+
+Já como critério de avaliação o que predomina é um modelo conhecido como \textit{Evidence Centered Assessment Design (ECD)}. Esse modelo é uma abordagem para construir avaliações em termos de argumentos probatórios, tem como base de avaliação as evidências produzidas pelo usuário participante do experimento. O que faz sentido pois uma técnica que foi bastante utilizada foi a de Mineração de dados educacionais, e como o \textit{ECD} consegue trabalhar facilmente com \textit{logs}, se integra muito bem no contexto de mineração de dados. Todos os critérios de avaliação dos estudos analisados são:
+
+\begin{itemize}
+    \item \textbf{Validação das ações do jogador no decorrer do jogo} \cite{rowe2017assessing}, \cite{baron2014approach};
+    \item \textbf{Validação das ações do usuário vs. o domínio de conhecimento} \cite{rowe2017assessing}, \cite{moreno2007game}, \cite{asbell2013assessment};
+    \item \textbf{Acertar o questionário teste} \cite{kam2007localized}, \cite{kam2009improving}, \cite{del2010easing};
+    \item \textbf{\textit{Evidence Centered Assessment Design (ECD)}} \cite{harpstead2013search}, \cite{falakmasir2016data}, \cite{georgiadis2018accommodating}, \cite{georgiadis2019learning}, \cite{georgiadis2019bolstering}, \cite{georgiadis2019reinforcing}, \cite{min2019deepstealth};
+    \item \textbf{\textit{Experiment Centered Assessment Design (XCD)}} \cite{conrad2014framework}.
+\end{itemize}
+
+O estudo feito por \cite{conrad2014framework}, vale ser ressaltado, pois ele foi o único que apresentou um critério conhecido como \textit{Experiment Centered Assessment Design (XCD)}, critério se baseia no \textit{ECD}, mas difere na questão que ele não toma como base ações ou eventos individuais, ele armazena um conjunto de ações do usuário, e chama esse conjunto de experimento, fazendo sua análise baseado do experimento, pois ele fala que não é ideal analisar evidencias isoladas, pois no mundo aberto (ou no mundo real) a aleatoriedade (imprevistos) pode auxiliar no processo de aprendizado, e que nem tudo é de simples interação. Isso remete ao aprendizado baseado na experiência, baseado na vivência do todo.
+
+\subsection{QP8: Qual a teoria de aprendizagem utilizada pelo jogo?}\label{qual_teoria_de_aprendizagem}
+
+Apesar de nenhum dos estudos analisados ter citado explicitamente que seguiu a diretriz proposta por alguma teoria de aprendizagem cabe fazer algumas menções.
+
+O estudo feito por \cite{rowe2017assessing} citou a zona de desenvolvimento proximal de Vigotski \cite{vygotsky1997collected}, como ponto para ser observado pelo \textit{game designer}, ao falar sobre a possibilidade de inferir alterações em tempo real no jogo para aumentar o aprendizado do jogador. Já os estudos de \cite{moreno2007game} e \cite{conrad2014framework}, apesar de não terem citado a teoria sociointeracionista, introduziram suas avaliações dentro da própria narrativa do jogo, o que se aproxima de uma experiência de aprendizado baseado em vivências.
+
+Já os estudos de \cite{kam2007localized}, \cite{kam2009improving}, \cite{del2010easing}, \cite{de20163d} e \cite{mota2017environment} não citaram nenhuma teoria de aprendizado, mas utilizaram técnicas \textit{behavioristas} em seu método e/ou critério de avaliação.
+
+\section{Conclusão}\label{sec:conclusao}
+
+Os estudos analisados por esse artigo uma crescente em relação a tentativa de automatizar o processo de avaliação de aprendizado, utilizando técnicas com aprendizado de máquina e mineração de dados. Assim como também mostram que a grande maioria dos jogos ainda utilizam métodos behavioristas na hora de realizarem essas avaliações nos jogos, aplicando testes que contem respostas ``certas" e ``erradas".
+
+Mas quando falamos de um ambiente de aprendizado de interação, o qual o indivíduo não aprende apenas acertando, mas sim explorando, errando, trocando experiências com seu contexto sócio e cultural. Estamos falando de um cenário sócio-interacionista, o qual foi o ponto de partida dessa análise. Nesse cenário há uma diferença entre medir o aprendizado e medir o processo de aprendizagem.
+
+Para que essa aferição possa ser feita sem impactar o desempenho e sem causar ruídos para o estudante, toda avaliação deve estar inserida dentro do jogo, de forma não disruptiva. Ela tem que estar inserida na narrativa do próprio jogo, fazendo com que o jogador consiga imergir nesse contexto, obtendo aprendizado através da interação com o ambiente do jogo.
+
+Com tudo isso em mente, a Avaliação Silenciosa (\textit{Stealth Assessment}) mostra potencial para realizar essa tarefa de avaliação de aprendizagem em um contexto socio-interacionista, pois seu princípio é não ser disruptiva e não "parar/bloquear" o processo/andamento do jogo. Assim como utilizar \textit{logs} e mineração de dados educacionais, aplicados a um ambiente que utiliza como critério de avaliação o XCD - \textit{Experiment Centered Assessment Design} \cite{conrad2014framework}, uma evolução do ECD - \textit{Evidence Centered Assessment Design}, temos um ambiente montado para uma avaliação baseada na interação do usuário em todo o contexto do jogo e não só focado em respostas de momentos pontuais do jogo.
+
+Como trabalho futuro, é sugerido um aprofundamento na Avaliação Silenciosa assim como nos critérios de avaliação ECD e XCD, com intuito de produzir um modelo, algoritmo ou proposta de avaliação sociointeracionista. A qual seja capaz de ser aplicada em um contexto de aprendizado não disruptivo, um contexto que contenha troca de experiências e vivências dentro do jogo.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
